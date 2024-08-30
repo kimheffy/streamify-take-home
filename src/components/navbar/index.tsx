@@ -1,7 +1,10 @@
 "use client";
 
 import { usePathname } from "next/navigation";
+import { HamburgerMenuIcon } from "@radix-ui/react-icons";
+import { Avatar, AvatarFallback } from "@/components/ui/avatar";
 import { cn } from "@/lib/utils";
+import DrawerDropdown from "./drawerdropdown";
 
 const TABS = [
   {
@@ -26,13 +29,12 @@ const TABS = [
   },
 ];
 
-// TODO: Import and use Avatar component from shad.cn, use radix-icons for Hamburger icon
 export function Navbar() {
   const pathname = usePathname();
 
   return (
-    <nav className="flex bg-black p-4 justify-between rounded-b-lg drop-shadow-lg">
-      <div className="text-white sm:hidden">=</div>
+    <nav className="flex bg-black p-4 justify-between rounded-b-lg drop-shadow-lg items-center">
+      <HamburgerMenuIcon className="text-white sm:hidden" />
 
       <ul className="hidden sm:flex justify-between gap-4">
         {TABS.map(({ id, label, path }) => (
@@ -44,7 +46,14 @@ export function Navbar() {
           </li>
         ))}
       </ul>
-      <div className="text-white">avatar</div>
+
+      <DrawerDropdown
+        trigger={
+          <Avatar className="size-8">
+            <AvatarFallback>JK</AvatarFallback>
+          </Avatar>
+        }
+      />
     </nav>
   );
 }
