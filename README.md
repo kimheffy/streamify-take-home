@@ -1,36 +1,32 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Streamify
 
-## Getting Started
+## Log
 
-First, run the development server:
+- Aug 29th 12:00pm: Scaffold the application
+- Aug 29th 2:30pm: Understand requirements, brainstorm other features, and mock data
+- Aug 29th 2:45pm: Done with mock data, break
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Overview
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Create a frontend application that displays an analytics dashboard.
+The dashboard should present key metrics and data visualizations.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Goal
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+The goal is to build a functional and visually appealing dashboard that is both responsive and user-friendly.
 
-## Learn More
+## Technical Requirements
 
-To learn more about Next.js, take a look at the following resources:
+- react + tailwindcss + shadcn.ui
+- will mock data
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Additional features
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- Dark mode
+- Calendar
+- Download button
 
-## Deploy on Vercel
+## Others
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Mimick API calls (having a randomized delay from 0 - 3 secs)
+- Utilize Skeleton components

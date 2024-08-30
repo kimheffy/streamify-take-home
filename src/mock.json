@@ -1,0 +1,214 @@
+{
+  "months": [
+    {
+      "totalUsers": 15,
+      "activeUsers": 5,
+      "totalStreams": 140,
+      "revenue": 13.31,
+      "revenueDistribution": {
+        "subscriptions": 0.0,
+        "ads": 1.0
+      },
+      "topArtist": "Fireplay",
+      "topSongs": [
+        "Look at this Photograph",
+        "Yellow",
+        "Karama Cop",
+        "Mr.Darkside",
+        "While we are old"
+      ]
+    },
+    {
+      "totalUsers": 23,
+      "activeUsers": 10,
+      "totalStreams": 340,
+      "revenue": 20,
+      "revenueDistribution": {
+        "subscriptions": 0.01,
+        "ads": 0.99
+      },
+      "topArtist": "My Chemical Bromance",
+      "topSongs": ["Phase One", "Hyperreal", "Makari", "Currents", "Waves"]
+    },
+    {
+      "totalUsers": 30,
+      "activeUsers": 15,
+      "totalStreams": 430,
+      "revenue": 25,
+      "revenueDistribution": {
+        "subscriptions": 0.05,
+        "ads": 0.95
+      },
+      "topArtist": "Sabriana Carpetner",
+      "topSongs": [
+        "New Medicines",
+        "Star Crossed",
+        "DEspresso",
+        "High and Dry",
+        "Something"
+      ]
+    },
+    {
+      "totalUsers": 36,
+      "activeUsers": 18,
+      "totalStreams": 200,
+      "revenue": 20,
+      "revenueDistribution": {
+        "subscriptions": 0.05,
+        "ads": 0.95
+      },
+      "topArtist": "Hoja Cat",
+      "topSongs": ["Im a Cow", "Some Nights", "Day Drive", "Sweet", "Bye bye"]
+    },
+    {
+      "totalUsers": 50,
+      "activeUsers": 35,
+      "totalStreams": 1000,
+      "revenue": 301,
+      "revenueDistribution": {
+        "subscriptions": 0.15,
+        "ads": 0.85
+      },
+      "topArtist": "Gushers",
+      "topSongs": ["Candy", "Hyper", "Zoom Zoom", "Good Day", "See ya"]
+    },
+    {
+      "totalUsers": 100,
+      "activeUsers": 58,
+      "totalStreams": 2000,
+      "revenue": 200,
+      "revenueDistribution": {
+        "subscriptions": 0.2,
+        "ads": 0.8
+      },
+      "topArtist": "Old Jeans",
+      "topSongs": ["Candy", "Hyper", "Zoom Zoom", "Good Day", "See ya"]
+    },
+    {
+      "totalUsers": 300,
+      "activeUsers": 250,
+      "totalStreams": 9500,
+      "revenue": 2000,
+      "revenueDistribution": {
+        "subscriptions": 0.5,
+        "ads": 0.5
+      },
+      "topArtist": "Kohn Summit",
+      "topSongs": [
+        "Dance Dance Dance",
+        "Till We Up",
+        "Sleeping",
+        "Goodbye",
+        "Meow Meow Meow"
+      ]
+    },
+    {
+      "totalUsers": 500,
+      "activeUsers": 450,
+      "totalStreams": 19500,
+      "revenue": 5000,
+      "revenueDistribution": {
+        "subscriptions": 0.45,
+        "ads": 0.55
+      },
+      "topArtist": "Illiiienium",
+      "topSongs": [
+        "Feel Good",
+        "Not Even Love",
+        "Awake",
+        "Needed You",
+        "Fractures"
+      ]
+    },
+    {
+      "totalUsers": 700,
+      "activeUsers": 650,
+      "totalStreams": 150300,
+      "revenue": 9000,
+      "revenueDistribution": {
+        "subscriptions": 0.65,
+        "ads": 0.35
+      },
+      "topArtist": "8Lions",
+      "topSongs": [
+        "Not Even Love",
+        "Ill wait for you",
+        "First Time",
+        "Ones I Used to Love",
+        "Fractures"
+      ]
+    },
+    {
+      "totalUsers": 750,
+      "activeUsers": 450,
+      "totalStreams": 100300,
+      "revenue": 5000,
+      "revenueDistribution": {
+        "subscriptions": 0.6,
+        "ads": 0.4
+      },
+      "topArtist": "Lana De Hay",
+      "topSongs": [
+        "Notebook",
+        "Summer Tears",
+        "Camp Fire",
+        "Hay O",
+        "Whirlwind"
+      ]
+    },
+    {
+      "totalUsers": 802,
+      "activeUsers": 590,
+      "totalStreams": 100000,
+      "revenue": 3000,
+      "revenueDistribution": {
+        "subscriptions": 0.6,
+        "ads": 0.4
+      },
+      "topArtist": "Spooky-Dooky",
+      "topSongs": [
+        "IT Theme song",
+        "Halloween",
+        "Ghost stories",
+        "Forever in your Hands",
+        "A Spooky Dooky"
+      ]
+    },
+    {
+      "totalUsers": 1030,
+      "activeUsers": 1008,
+      "totalStreams": 1000000,
+      "revenue": 15000,
+      "revenueDistribution": {
+        "subscriptions": 0.63,
+        "ads": 0.37
+      },
+      "topArtist": "Mariay Carry",
+      "topSongs": [
+        "All I want for Christmas",
+        "Jingle Bells",
+        "Deck the Halls",
+        "First Christmas",
+        "Old Saint Nick"
+      ]
+    },
+    {
+      "totalUsers": 1032,
+      "activeUsers": 1032,
+      "totalStreams": 8000000,
+      "revenue": 100000,
+      "revenueDistribution": {
+        "subscriptions": 0.73,
+        "ads": 0.27
+      },
+      "topArtist": "Mariay Carry",
+      "topSongs": [
+        "All I want for Christmas",
+        "Jingle Bells",
+        "Deck the Halls",
+        "First Christmas",
+        "Old Saint Nick"
+      ]
+    }
+  ]
+}
