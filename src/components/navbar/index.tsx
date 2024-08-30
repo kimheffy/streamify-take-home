@@ -4,8 +4,8 @@ import { Avatar, AvatarFallback } from "@/components/ui/avatar";
 import { cn } from "@/lib/utils";
 import { usePathname } from "next/navigation";
 import { TABS } from "./constants";
-import DrawerDropdown from "./drawerdropdown";
-import HamburgerSheet from "./hamburgersheet";
+import DrawerDropdown from "./drawer-dropdown";
+import HamburgerSheet from "./hamburger-sheet";
 
 export function Navbar() {
   const pathname = usePathname();
