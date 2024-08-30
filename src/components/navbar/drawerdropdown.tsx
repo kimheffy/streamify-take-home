@@ -3,7 +3,6 @@
 import { useMediaQuery } from "usehooks-ts";
 import {
   Drawer,
-  DrawerClose,
   DrawerContent,
   DrawerTrigger,
   DrawerHeader,
