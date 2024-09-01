@@ -1,16 +1,17 @@
 {
   "months": [
     {
-      "totalUsers": 15,
-      "activeUsers": 5,
-      "totalStreams": 140,
+      "id": "ec6e799b-b5ab-4d92-aa53-d200158e68d6",
+      "total_users": 15,
+      "active_users": 5,
+      "total_streams": 140,
       "revenue": 13.31,
-      "revenueDistribution": {
+      "revenue_distribution": {
         "subscriptions": 0.0,
         "ads": 1.0
       },
-      "topArtist": "Fireplay",
-      "topSongs": [
+      "top_artist": "Fireplay",
+      "top_songs": [
         "Look at this Photograph",
         "Yellow",
         "Karama Cop",
@@ -19,28 +20,30 @@
       ]
     },
     {
-      "totalUsers": 23,
-      "activeUsers": 10,
-      "totalStreams": 340,
+      "id": "22d56238-6d21-48c3-8feb-7dec182e1ac6",
+      "total_users": 23,
+      "active_users": 10,
+      "total_streams": 340,
       "revenue": 20,
-      "revenueDistribution": {
+      "revenue_distribution": {
         "subscriptions": 0.01,
         "ads": 0.99
       },
-      "topArtist": "My Chemical Bromance",
-      "topSongs": ["Phase One", "Hyperreal", "Makari", "Currents", "Waves"]
+      "top_artist": "My Chemical Bromance",
+      "top_songs": ["Phase One", "Hyperreal", "Makari", "Currents", "Waves"]
     },
     {
-      "totalUsers": 30,
-      "activeUsers": 15,
-      "totalStreams": 430,
+      "id": "8e3df616-1e0b-45d0-8e76-ce2cd7b3a46c",
+      "total_users": 30,
+      "active_users": 15,
+      "total_streams": 430,
       "revenue": 25,
-      "revenueDistribution": {
+      "revenue_distribution": {
         "subscriptions": 0.05,
         "ads": 0.95
       },
-      "topArtist": "Sabriana Carpetner",
-      "topSongs": [
+      "top_artist": "Sabriana Carpetner",
+      "top_songs": [
         "New Medicines",
         "Star Crossed",
         "DEspresso",
@@ -49,52 +52,56 @@
       ]
     },
     {
-      "totalUsers": 36,
-      "activeUsers": 18,
-      "totalStreams": 200,
+      "id": "90005007-321b-44a1-8bb5-c8f294b80df9",
+      "total_users": 36,
+      "active_users": 18,
+      "total_streams": 200,
       "revenue": 20,
-      "revenueDistribution": {
+      "revenue_distribution": {
         "subscriptions": 0.05,
         "ads": 0.95
       },
-      "topArtist": "Hoja Cat",
-      "topSongs": ["Im a Cow", "Some Nights", "Day Drive", "Sweet", "Bye bye"]
+      "top_artist": "Hoja Cat",
+      "top_songs": ["Im a Cow", "Some Nights", "Day Drive", "Sweet", "Bye bye"]
     },
     {
-      "totalUsers": 50,
-      "activeUsers": 35,
-      "totalStreams": 1000,
+      "id": "9b2ebb4b-a743-4d87-a83f-f2527e2cefd1",
+      "total_users": 50,
+      "active_users": 35,
+      "total_streams": 1000,
       "revenue": 301,
-      "revenueDistribution": {
+      "revenue_distribution": {
         "subscriptions": 0.15,
         "ads": 0.85
       },
-      "topArtist": "Gushers",
-      "topSongs": ["Candy", "Hyper", "Zoom Zoom", "Good Day", "See ya"]
+      "top_artist": "Gushers",
+      "top_songs": ["Candy", "Hyper", "Zoom Zoom", "Good Day", "See ya"]
     },
     {
-      "totalUsers": 100,
-      "activeUsers": 58,
-      "totalStreams": 2000,
+      "id": "d04523b7-c719-4483-bcf2-23e8b0a2726f",
+      "total_users": 100,
+      "active_users": 58,
+      "total_streams": 2000,
       "revenue": 200,
-      "revenueDistribution": {
+      "revenue_distribution": {
         "subscriptions": 0.2,
         "ads": 0.8
       },
-      "topArtist": "Old Jeans",
-      "topSongs": ["Candy", "Hyper", "Zoom Zoom", "Good Day", "See ya"]
+      "top_artist": "Old Jeans",
+      "top_songs": ["Candy", "Hyper", "Zoom Zoom", "Good Day", "See ya"]
     },
     {
-      "totalUsers": 300,
-      "activeUsers": 250,
-      "totalStreams": 9500,
+      "id": "c841844f-112f-474f-be5e-f297e296a530",
+      "total_users": 300,
+      "active_users": 250,
+      "total_streams": 9500,
       "revenue": 2000,
-      "revenueDistribution": {
+      "revenue_distribution": {
         "subscriptions": 0.5,
         "ads": 0.5
       },
-      "topArtist": "Kohn Summit",
-      "topSongs": [
+      "top_artist": "Kohn Summit",
+      "top_songs": [
         "Dance Dance Dance",
         "Till We Up",
         "Sleeping",
@@ -103,16 +110,17 @@
       ]
     },
     {
-      "totalUsers": 500,
-      "activeUsers": 450,
-      "totalStreams": 19500,
+      "id": "3e605e93-6056-4ced-9f39-426e8ec0ef5d",
+      "total_users": 500,
+      "active_users": 450,
+      "total_streams": 19500,
       "revenue": 5000,
-      "revenueDistribution": {
+      "revenue_distribution": {
         "subscriptions": 0.45,
         "ads": 0.55
       },
-      "topArtist": "Illiiienium",
-      "topSongs": [
+      "top_artist": "Illiiienium",
+      "top_songs": [
         "Feel Good",
         "Not Even Love",
         "Awake",
@@ -121,16 +129,17 @@
       ]
     },
     {
-      "totalUsers": 700,
-      "activeUsers": 650,
-      "totalStreams": 150300,
+      "id": "b4399ba4-8da0-40ae-b017-2397090fc795",
+      "total_users": 700,
+      "active_users": 650,
+      "total_streams": 150300,
       "revenue": 9000,
-      "revenueDistribution": {
+      "revenue_distribution": {
         "subscriptions": 0.65,
         "ads": 0.35
       },
-      "topArtist": "8Lions",
-      "topSongs": [
+      "top_artist": "8Lions",
+      "top_songs": [
         "Not Even Love",
         "Ill wait for you",
         "First Time",
@@ -139,16 +148,17 @@
       ]
     },
     {
-      "totalUsers": 750,
-      "activeUsers": 450,
-      "totalStreams": 100300,
+      "id": "b1b8bbe1-0e76-4179-9282-42c5ebe1d075",
+      "total_users": 750,
+      "active_users": 450,
+      "total_streams": 100300,
       "revenue": 5000,
-      "revenueDistribution": {
+      "revenue_distribution": {
         "subscriptions": 0.6,
         "ads": 0.4
       },
-      "topArtist": "Lana De Hay",
-      "topSongs": [
+      "top_artist": "Lana De Hay",
+      "top_songs": [
         "Notebook",
         "Summer Tears",
         "Camp Fire",
@@ -157,16 +167,17 @@
       ]
     },
     {
-      "totalUsers": 802,
-      "activeUsers": 590,
-      "totalStreams": 100000,
+      "id": "fde079b9-08ec-470e-83bc-5d979d8cd7af",
+      "total_users": 802,
+      "active_users": 590,
+      "total_streams": 100000,
       "revenue": 3000,
-      "revenueDistribution": {
+      "revenue_distribution": {
         "subscriptions": 0.6,
         "ads": 0.4
       },
-      "topArtist": "Spooky-Dooky",
-      "topSongs": [
+      "top_artist": "Spooky-Dooky",
+      "top_songs": [
         "IT Theme song",
         "Halloween",
         "Ghost stories",
@@ -175,16 +186,17 @@
       ]
     },
     {
-      "totalUsers": 1030,
-      "activeUsers": 1008,
-      "totalStreams": 1000000,
+      "id": "50dcb925-0da4-45db-9189-f08447e55ec7",
+      "total_users": 1030,
+      "active_users": 1008,
+      "total_streams": 1000000,
       "revenue": 15000,
-      "revenueDistribution": {
+      "revenue_distribution": {
         "subscriptions": 0.63,
         "ads": 0.37
       },
-      "topArtist": "Mariay Carry",
-      "topSongs": [
+      "top_artist": "Mariay Carry",
+      "top_songs": [
         "All I want for Christmas",
         "Jingle Bells",
         "Deck the Halls",
@@ -193,16 +205,17 @@
       ]
     },
     {
-      "totalUsers": 1032,
-      "activeUsers": 1032,
-      "totalStreams": 8000000,
+      "id": "a59cfe55-7f1f-47c9-a63f-53cc0eab9c17",
+      "total_users": 1032,
+      "active_users": 1032,
+      "total_streams": 8000000,
       "revenue": 100000,
-      "revenueDistribution": {
+      "revenue_distribution": {
         "subscriptions": 0.73,
         "ads": 0.27
       },
-      "topArtist": "Mariay Carry",
-      "topSongs": [
+      "top_artist": "Mariay Carry",
+      "top_songs": [
         "All I want for Christmas",
         "Jingle Bells",
         "Deck the Halls",

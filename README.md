@@ -1,13 +1,5 @@
 # Streamify
 
-## Log
-
-- Aug 29th 12:00pm: Scaffold the application
-- Aug 29th 2:30pm: Understand requirements, brainstorm other features, and mock data
-- Aug 29th 2:45pm: Done with mock data, break
-- Aug 30th 11:56am: Finish creating navbar component
-- Aug 30th 1:21pm: Finish creating hamburger menu
-
 ## Overview
 
 Create a frontend application that displays an analytics dashboard.
@@ -37,3 +29,6 @@ The goal is to build a functional and visually appealing dashboard that is both 
 
 - [x] Dynamic Navbar
 - [x] Dynamic Hamburger Menu
+- [x] Add Metric cards
+- [ ] Data Visualization tools for User Growth chart, revenue distribution and top-5 streamed songs
+- [ ] Data Table
