@@ -3,6 +3,7 @@ import { dtoMapper } from "@/components/key-metrics/dtoMapper";
 import LineChart from "@/components/line-chart";
 import BarChart from "@/components/bar-chart";
 import PieChart from "@/components/pie-chart";
+import RecentStreamsTable from "@/components/recent-streams-table";
 import mockData from "@/mock.json";
 
 const MONTHS = [
@@ -49,13 +50,16 @@ export default function Home() {
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-between ">
-      <section className="mx-8 flex flex-col gap-8 md:grid md:grid-cols-2 lg:grid lg:grid-cols-4">
+      <section className="mt-8 mx-8 flex flex-col gap-8 md:grid md:grid-cols-2 lg:grid lg:grid-cols-4">
         <KeyMetrics metric={dtoMapper(month)} />
       </section>
       <section className="mt-8 mx-8 flex flex-col gap-8 md:grid md:grid-cols-2">
         <LineChart chartData={userGrowth} />
         <PieChart chartData={pieData} />
         <BarChart chartData={barChart} />
+      </section>
+      <section className="mt-8 mx-8">
+        <RecentStreamsTable />
       </section>
     </main>
   );
