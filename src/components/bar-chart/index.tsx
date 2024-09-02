@@ -36,7 +36,7 @@ export default function Component({
   }[];
 }) {
   return (
-    <Card className="m-8">
+    <Card>
       <CardHeader>
         <CardTitle>Top 5 Streamed Songs</CardTitle>
       </CardHeader>

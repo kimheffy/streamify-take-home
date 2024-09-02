@@ -42,7 +42,7 @@ export default function Component({
   }[];
 }) {
   return (
-    <Card className="m-8">
+    <Card>
       <CardHeader>
         <CardTitle>User Growth Chart</CardTitle>
         <CardDescription>January - December 2024</CardDescription>

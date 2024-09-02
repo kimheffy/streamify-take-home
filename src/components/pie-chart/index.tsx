@@ -76,7 +76,7 @@ export default function Component({
 }) {
   console.log({ chartData });
   return (
-    <Card className="flex flex-col m-8">
+    <Card className="flex flex-col ">
       <CardHeader className="items-center pb-0">
         <CardTitle>Revenue Distribution</CardTitle>
         {/* <CardDescription>January - June 2024</CardDescription> */}

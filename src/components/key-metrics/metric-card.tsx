@@ -61,7 +61,7 @@ export default function MetricCard({
   const { title, description, icon: Icon } = getCardLabels(metric);
 
   return (
-    <Card className="m-8">
+    <Card className="">
       <CardHeader>
         <CardTitle>
           <div className="flex justify-between">
