@@ -58,7 +58,7 @@ export default function Home() {
         <PieChart chartData={pieData} />
         <BarChart chartData={barChart} />
       </section>
-      <section className="mt-8 mx-8">
+      <section className="mt-8 w-full">
         <RecentStreamsTable />
       </section>
     </main>
