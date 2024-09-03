@@ -77,16 +77,16 @@ export default function Component({
             <Line
               dataKey="total_users"
               type="natural"
-              stroke="var(--chart-1)"
+              stroke="var(--color-total_users)"
               strokeWidth={2}
-              dot={{ fill: "var(--chart-1)" }}
+              dot={{ fill: "var(--color-total_users)" }}
             />
             <Line
               dataKey="active_users"
               type="natural"
-              stroke="var(--chart-2)"
+              stroke="var(--color-active_users)"
               strokeWidth={2}
-              dot={{ fill: "var(--chart-2)" }}
+              dot={{ fill: "var(--color-active_users)" }}
             />
           </LineChart>
         </ChartContainer>

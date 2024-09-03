@@ -6,6 +6,7 @@ import { usePathname } from "next/navigation";
 import { TABS } from "./constants";
 import DrawerDropdown from "./drawer-dropdown";
 import HamburgerSheet from "./hamburger-sheet";
+import ToggleTheme from "./toggle-theme";
 
 export function Navbar() {
   const pathname = usePathname();
@@ -25,13 +26,16 @@ export function Navbar() {
         ))}
       </ul>
 
-      <DrawerDropdown
-        trigger={
-          <Avatar className="size-8">
-            <AvatarFallback>JK</AvatarFallback>
-          </Avatar>
-        }
-      />
+      <div className="flex items-center gap-8">
+        <ToggleTheme />
+        <DrawerDropdown
+          trigger={
+            <Avatar className="size-8">
+              <AvatarFallback>JK</AvatarFallback>
+            </Avatar>
+          }
+        />
+      </div>
     </nav>
   );
 }

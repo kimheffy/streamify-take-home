@@ -49,7 +49,7 @@ export default function Home() {
   }));
 
   return (
-    <main className="flex min-h-screen flex-col justify-between ">
+    <main className="flex min-h-screen flex-col items-center justify-between ">
       <section className="mt-8 mx-8 flex flex-col gap-8 md:grid md:grid-cols-2 lg:grid lg:grid-cols-4">
         <KeyMetrics metric={dtoMapper(month)} />
       </section>
