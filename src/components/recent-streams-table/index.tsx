@@ -50,7 +50,7 @@ const STREAMS = [
 
 export default function RecentStreamsTable() {
   return (
-    <Table>
+    <Table className="w-full">
       <TableCaption>A list of recent streams.</TableCaption>
       <TableHeader>
         <TableRow>
@@ -63,7 +63,7 @@ export default function RecentStreamsTable() {
       <TableBody>
         {STREAMS.map((stream) => (
           <TableRow key={stream.user_id}>
-            <TableCell>{stream.name}</TableCell>
+            <TableCell className="font-medium">{stream.name}</TableCell>
             <TableCell>{stream.artist}</TableCell>
             <TableCell>{stream.date_streamed}</TableCell>
             <TableCell>{stream.stream_count}</TableCell>

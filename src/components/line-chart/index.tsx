@@ -44,8 +44,12 @@ export default function Component({
   return (
     <Card>
       <CardHeader>
-        <CardTitle>User Growth Chart</CardTitle>
-        <CardDescription>January - December 2024</CardDescription>
+        <CardTitle className="md:text-lg lg:text-base">
+          User Growth Chart
+        </CardTitle>
+        <CardDescription className="md:text-sm lg:text-xs">
+          January - December 2024
+        </CardDescription>
       </CardHeader>
       <CardContent>
         <ChartContainer config={chartConfig} className="min-h-[200]">
@@ -87,7 +91,7 @@ export default function Component({
           </LineChart>
         </ChartContainer>
       </CardContent>
-      <CardFooter className="flex-col items-start gap-2 text-sm">
+      <CardFooter className="flex-col items-start gap-2 text-sm md:text-xs">
         <div className="leading-none text-muted-foreground">
           Displaying the growth in the number of total users and active users
           over the past 12 months.

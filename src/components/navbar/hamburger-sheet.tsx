@@ -9,14 +9,14 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet";
 import { cn } from "@/lib/utils";
-import { HamburgerMenuIcon } from "@radix-ui/react-icons";
+import { Menu } from "lucide-react";
 import { TABS } from "./constants";
 
 export default function HamburgerSheet({ pathname }: { pathname: string }) {
   return (
     <Sheet>
       <SheetTrigger asChild className="sm:hidden">
-        <HamburgerMenuIcon className="text-white" />
+        <Menu className="text-white" />
       </SheetTrigger>
       <SheetContent>
         <SheetHeader>

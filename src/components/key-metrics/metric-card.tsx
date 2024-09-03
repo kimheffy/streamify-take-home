@@ -61,18 +61,22 @@ export default function MetricCard({
   const { title, description, icon: Icon } = getCardLabels(metric);
 
   return (
-    <Card className="">
+    <Card className="flex flex-col justify-between">
       <CardHeader>
         <CardTitle>
-          <div className="flex justify-between">
-            <div className="capitalize">{title}</div>
-            {Icon && <Icon />}
+          <div className="flex justify-between items-center">
+            <div className="capitalize md:text-lg lg:text-base">{title}</div>
+            {Icon && <Icon className="md:size-6 lg:size-5" />}
           </div>
         </CardTitle>
-        <CardDescription>{description}</CardDescription>
+        <CardDescription className="md:text-sm lg:text-xs">
+          {description}
+        </CardDescription>
       </CardHeader>
       <CardContent>
-        <span className="font-semibold text-xl">{value}</span>
+        <span className="font-semibold text-xl md:text-lg lg:text-base">
+          {value}
+        </span>
       </CardContent>
     </Card>
   );

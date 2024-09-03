@@ -76,9 +76,11 @@ export default function Component({
 }) {
   console.log({ chartData });
   return (
-    <Card className="flex flex-col ">
+    <Card className="flex flex-col">
       <CardHeader className="items-center pb-0">
-        <CardTitle>Revenue Distribution</CardTitle>
+        <CardTitle className="md:text-lg lg:text-base">
+          Revenue Distribution
+        </CardTitle>
         {/* <CardDescription>January - June 2024</CardDescription> */}
       </CardHeader>
       <CardContent className="flex-1 pb-0">
@@ -104,7 +106,7 @@ export default function Component({
           </PieChart>
         </ChartContainer>
       </CardContent>
-      <CardFooter className="flex-col gap-2 text-sm">
+      <CardFooter className="flex-col gap-2 text-sm md:text-xs">
         {/*
         <div className="flex items-center gap-2 font-medium leading-none">
           Trending up by 5.2% this month <TrendingUp className="h-4 w-4" />

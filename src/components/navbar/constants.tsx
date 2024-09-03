@@ -1,33 +1,28 @@
-import {
-  HomeIcon,
-  PersonIcon,
-  SpeakerLoudIcon,
-  GearIcon,
-} from "@radix-ui/react-icons";
+import { HouseIcon, UsersIcon, Speaker, Cog } from "lucide-react";
 
 export const TABS = [
   {
     id: "overview",
     label: "Overview",
     path: "/",
-    icon: HomeIcon,
+    icon: HouseIcon,
   },
   {
     id: "customers",
     label: "Customers",
     path: "/customers",
-    icon: PersonIcon,
+    icon: UsersIcon,
   },
   {
     id: "products",
     label: "Products",
     path: "/product",
-    icon: SpeakerLoudIcon,
+    icon: Speaker,
   },
   {
     id: "settings",
     label: "Settings",
     path: "/settings",
-    icon: GearIcon,
+    icon: Cog,
   },
 ];

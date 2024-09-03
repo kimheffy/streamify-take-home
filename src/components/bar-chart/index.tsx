@@ -38,7 +38,9 @@ export default function Component({
   return (
     <Card>
       <CardHeader>
-        <CardTitle>Top 5 Streamed Songs</CardTitle>
+        <CardTitle className="md:text-lg lg:text-base">
+          Top 5 Streamed Songs
+        </CardTitle>
       </CardHeader>
       <CardContent>
         <ChartContainer className="min-h-[200]" config={chartConfig}>
@@ -69,7 +71,7 @@ export default function Component({
           </BarChart>
         </ChartContainer>
       </CardContent>
-      <CardFooter className="flex-col items-start gap-2 text-sm">
+      <CardFooter className="flex-col items-start gap-2 text-sm md:text-xs">
         {/*
         <div className="flex gap-2 font-medium leading-none">
           Trending up by 5.2% this month <TrendingUp className="h-4 w-4" />
