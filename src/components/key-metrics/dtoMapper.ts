@@ -5,8 +5,11 @@ export function dtoMapper(data: IRawData): IMetric {
   return {
     total_users: data.total_users,
     active_users: data.active_users,
-    total_streams: data.total_streams,
-    revenue: `$ ${data.revenue}`,
+    total_streams: new Intl.NumberFormat().format(data.total_streams),
+    revenue: new Intl.NumberFormat("en-US", {
+      style: "currency",
+      currency: "USD",
+    }).format(data.revenue),
     top_artist: data.top_artist,
   };
 }

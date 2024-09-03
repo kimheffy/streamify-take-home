@@ -1,9 +1,13 @@
+"use client";
+
+import * as React from "react";
 import KeyMetrics from "@/components/key-metrics";
 import { dtoMapper } from "@/components/key-metrics/dtoMapper";
 import LineChart from "@/components/line-chart";
 import BarChart from "@/components/bar-chart";
 import PieChart from "@/components/pie-chart";
 import RecentStreamsTable from "@/components/recent-streams-table";
+import SingleCalendar from "@/components/single-calendar";
 import mockData from "@/mock.json";
 
 const MONTHS = [
@@ -26,6 +30,12 @@ function getRandom(min: number, max: number) {
 }
 
 export default function Home() {
+  const [date, setDate] = React.useState<Date | undefined>(new Date());
+
+  function handleDate(newDate: Date | undefined) {
+    setDate(newDate);
+  }
+
   const userGrowth = mockData.months.map((month, index) => ({
     id: month.id,
     total_users: month.total_users,
@@ -33,7 +43,7 @@ export default function Home() {
     month: MONTHS[index],
   }));
 
-  const month = mockData.months[0];
+  const month = mockData.months[date?.getMonth() ?? 0];
 
   const pieData = Object.entries({
     subscriptions: month.revenue_distribution.subscriptions,
@@ -49,7 +59,11 @@ export default function Home() {
   }));
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between ">
+    <main className="flex min-h-screen flex-col justify-between ">
+      <section className="mt-8 mx-8 flex items-center justify-between">
+        <h1 className="font-semibold text-2xl md:text-3xl">Dashboard</h1>
+        <SingleCalendar date={date} setDate={handleDate} />
+      </section>
       <section className="mt-8 mx-8 flex flex-col gap-8 md:grid md:grid-cols-2 lg:grid lg:grid-cols-4">
         <KeyMetrics metric={dtoMapper(month)} />
       </section>
