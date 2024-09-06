@@ -5,6 +5,8 @@
 Create a frontend application that displays an analytics dashboard.
 The dashboard should present key metrics and data visualizations.
 
+[Click here to visit the Streamify](https://main.dd1o34qb0mn8t.amplifyapp.com/)!
+
 ### Goal
 
 The goal is to build a functional and visually appealing dashboard that is both responsive and user-friendly.
@@ -30,5 +32,5 @@ The goal is to build a functional and visually appealing dashboard that is both 
 - [x] Dynamic Navbar
 - [x] Dynamic Hamburger Menu
 - [x] Add Metric cards
-- [ ] Data Visualization tools for User Growth chart, revenue distribution and top-5 streamed songs
-- [ ] Data Table
+- [x] Data Visualization tools for User Growth chart, revenue distribution and top-5 streamed songs
+- [x] Data Table
